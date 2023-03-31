@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contactame</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estiloejercicioformularios.css">
     <link rel="shortcut icon" href="media/favicon.ico">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -15,20 +18,43 @@
                 <a href="index.html" id="#hero">Sebastian Lax</a>
             </div>
             <nav>
-                <a href="index.html" id="#hero">Contactame</a>
+                <a href="contactame.html" id="#hero">Contactame</a>
                 <a href="index.html" id="#somosproya">Quien soy</a>
                 <a href="index.html" id="#nuestros-programas">Mi experiencia</a>
                 <a href="index.html" id="#caracteristicas">Mis Habilidades</a>
                 <a href="academia.html">Estado academico</a>
             </nav>
         </div>
+    </header>
+    <main id="hero">
+        <form>
 
 
+            <h4>Enviame tu mensaje</h4>
 
-        <footer>
-            <div class="container">
-                <p>&copy; Sebastian Lax 2023</p>
-            </div>
-        </footer>
+
+            <input class="controls" type="text" id="Nombre" name="Nombre" required placeholder="ingrese su nombre">
+
+
+            <input class="controls" type="text" id="apellido" name="apellido" required
+                placeholder="ingrese su apellido">
+
+            <input class="controls" type="email" id="email" name="email" required placeholder="example@hotmail.com">
+
+            <textarea class="controls" name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br>
+
+            <input class="boton" type="submit" value="Envie su mensaje">
+        </form>
+
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; Sebastian Lax 2023</p>
+        </div>
+    </footer>
 </body>
+
 </html>
